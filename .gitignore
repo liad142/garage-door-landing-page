@@ -36,6 +36,19 @@ yarn-error.log*
 # vercel
 .vercel
 
+# agent/skill directories
+.agent/
+.agents/
+.claude/
+.kiro/
+skills-lock.json
+
+# screenshots
+*.png
+!/public/**/*.png
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
