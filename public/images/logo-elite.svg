@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Diamond/shield shape -->
+  <path d="M100 20 L170 90 L100 160 L30 90 Z" fill="#5B8EC9"/>
+
+  <!-- Fist holding wrench -->
+  <!-- Wrench (upper left) -->
+  <path d="M60 55 L85 75" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="55" cy="50" r="10" fill="none" stroke="white" stroke-width="5"/>
+
+  <!-- Fist/hand -->
+  <rect x="82" y="68" width="28" height="38" rx="6" fill="white"/>
+  <!-- Thumb -->
+  <rect x="76" y="72" width="12" height="20" rx="5" fill="white"/>
+  <!-- Fingers wrapped -->
+  <rect x="82" y="65" width="28" height="10" rx="4" fill="white"/>
+
+  <!-- Wrench (lower right, in hand) -->
+  <path d="M108 90 L135 115" stroke="white" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="140" cy="120" r="9" fill="none" stroke="white" stroke-width="4.5"/>
+
+  <!-- Text: Elite Services -->
+  <text x="100" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#5B8EC9">Elite Services</text>
+
+  <!-- Text: REPAIR SERVICES -->
+  <text x="100" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="500" letter-spacing="3" fill="#5B8EC9">REPAIR SERVICES</text>
+</svg>

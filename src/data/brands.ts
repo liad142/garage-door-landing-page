@@ -61,7 +61,7 @@ export const brands: Record<string, BrandConfig> = {
       { name: "David L.", initials: "DL", text: "Honest, reliable, and affordable. They gave me a fair quote over the phone and the final price matched exactly. No surprises. Will definitely call again if needed." }
     ],
     services: [
-      { title: "Garage Door Repair", description: "Fast, reliable repair for all garage door types. From panel damage to track alignment, we fix it all.", discount: "15% off for new customers", icon: "🔧", image: "/images/service-repair.png" },
+      { title: "Garage Door Repair", description: "Fast, reliable repair for all garage door types. From panel damage to track alignment, we fix it all.", discount: "15% off for new customers", icon: "🔧", image: "/images/service-repair-new.png" },
       { title: "Spring Repair & Replacement", description: "Broken spring? We carry all spring types and sizes for same-day replacement.", discount: "18% off", icon: "🔩", image: "/images/service-spring.png" },
       { title: "Opener Repair & Installation", description: "Expert repair and installation of all major opener brands including LiftMaster and Chamberlain.", discount: "15% off", icon: "⚙️", image: "/images/service-opener.png" },
       { title: "New Door Installation", description: "Upgrade your home's curb appeal with a brand new garage door. Premium brands at competitive prices.", discount: "10% off", icon: "🏠", image: "/images/service-installation.png" }
@@ -87,7 +87,7 @@ export const brands: Record<string, BrandConfig> = {
       secondary: "#0D1B2A",
       accent: "#D4A843",
     },
-    logo: "/images/logo-elite.png",
+    logo: "/images/logo-elite.svg",
     heroImage: "/images/hero-elite.png",
     about: "Elite Garage Doors is Valencia's premier garage door service provider. We bring a level of professionalism and attention to detail that sets us apart. Our certified technicians handle everything from emergency repairs to full custom installations, ensuring your home always looks its best and operates flawlessly.",
     reviews: [
@@ -98,7 +98,7 @@ export const brands: Record<string, BrandConfig> = {
       { name: "Lisa W.", initials: "LW", text: "Used their $69 tune-up special and couldn't be happier. The tech found a worn cable that could have snapped and replaced it on the spot. Saved me from a bigger problem down the road." }
     ],
     services: [
-      { title: "Garage Door Repair", description: "Comprehensive repair service for all door types and brands. Fast diagnostics and lasting solutions.", discount: "15% off for new customers", icon: "🔧", image: "/images/service-repair.png" },
+      { title: "Garage Door Repair", description: "Comprehensive repair service for all door types and brands. Fast diagnostics and lasting solutions.", discount: "15% off for new customers", icon: "🔧", image: "/images/service-repair-new.png" },
       { title: "Spring Repair & Replacement", description: "Expert torsion and extension spring service. We stock all sizes for fast same-day turnaround.", discount: "18% off", icon: "🔩", image: "/images/service-spring.png" },
       { title: "Opener Repair & Installation", description: "From belt-drive to chain-drive, we install and repair all opener types with precision.", discount: "15% off", icon: "⚙️", image: "/images/service-opener.png" },
       { title: "New Door Installation", description: "Transform your home with a premium new garage door. Custom styles and colors available.", discount: "10% off", icon: "🏠", image: "/images/service-installation.png" }
@@ -124,7 +124,7 @@ export const brands: Record<string, BrandConfig> = {
       secondary: "#1B1B2F",
       accent: "#B0B0B0",
     },
-    logo: "/images/logo-dmv.png",
+    logo: "/images/logo-dmv.svg",
     heroImage: "/images/hero-dmv.png",
     about: "EliteDMV Garage Doors serves Silver Spring, Bethesda, and the greater DMV area with dependable, high-quality garage door services. We understand that your garage door is one of the most important features of your home — that's why we deliver prompt, professional service backed by years of experience and a commitment to customer satisfaction.",
     reviews: [
@@ -135,7 +135,7 @@ export const brands: Record<string, BrandConfig> = {
       { name: "James T.", initials: "JT", text: "Needed emergency spring replacement and they handled it the same day. The tech explained everything clearly and the price was exactly what was quoted. No hidden fees. Highly recommend!" }
     ],
     services: [
-      { title: "Garage Door Repair", description: "Full-service garage door repair for homes across the DMV area. Quick response and reliable fixes.", discount: "15% off for new customers", icon: "🔧", image: "/images/service-repair.png" },
+      { title: "Garage Door Repair", description: "Full-service garage door repair for homes across the DMV area. Quick response and reliable fixes.", discount: "15% off for new customers", icon: "🔧", image: "/images/service-repair-new.png" },
       { title: "Spring Repair & Replacement", description: "Broken springs are our specialty. Fast, safe replacement with high-cycle springs built to last.", discount: "18% off", icon: "🔩", image: "/images/service-spring.png" },
       { title: "Opener Repair & Installation", description: "We service and install all leading opener brands. Smart home compatible options available.", discount: "15% off", icon: "⚙️", image: "/images/service-opener.png" },
       { title: "New Door Installation", description: "Enhance your home with a new garage door. We offer a wide selection of styles, materials, and colors.", discount: "10% off", icon: "🏠", image: "/images/service-installation.png" }

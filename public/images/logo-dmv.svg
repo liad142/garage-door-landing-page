@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- House/garage outline -->
+  <!-- Roof -->
+  <path d="M30 95 L100 35 L170 95" stroke="#2B5A7C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Roof peak decoration line -->
+  <line x1="100" y1="50" x2="100" y2="35" stroke="#2B5A7C" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Arrow/chevron pointing up -->
+  <path d="M88 60 L100 45 L112 60" stroke="#4A9DC8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Garage body (walls) -->
+  <rect x="45" y="92" width="110" height="70" rx="3" stroke="#2B5A7C" stroke-width="8" fill="none"/>
+
+  <!-- Garage door (inside) -->
+  <rect x="55" y="98" width="90" height="58" rx="2" fill="#4A9DC8" opacity="0.15"/>
+
+  <!-- Garage door horizontal lines -->
+  <line x1="55" y1="110" x2="145" y2="110" stroke="#4A9DC8" stroke-width="3"/>
+  <line x1="55" y1="122" x2="145" y2="122" stroke="#4A9DC8" stroke-width="3"/>
+  <line x1="55" y1="134" x2="145" y2="134" stroke="#4A9DC8" stroke-width="3"/>
+  <line x1="55" y1="146" x2="145" y2="146" stroke="#4A9DC8" stroke-width="3"/>
+
+  <!-- Text: GARAGE -->
+  <text x="100" y="185" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="28" font-weight="900" fill="#2B5A7C">GARAGE</text>
+
+  <!-- Text: DOOR -->
+  <text x="100" y="200" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#4A9DC8">DOOR</text>
+</svg>

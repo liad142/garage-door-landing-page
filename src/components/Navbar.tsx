@@ -12,7 +12,7 @@ export default function Navbar({ brand }: { brand: BrandConfig }) {
             alt={`${brand.name} logo`}
             width={48}
             height={48}
-            className="rounded-md bg-white p-0.5"
+            className="rounded-md"
           />
           <span className="text-lg font-bold tracking-tight hidden sm:block">{brand.name}</span>
         </div>
