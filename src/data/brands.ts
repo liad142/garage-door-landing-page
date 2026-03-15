@@ -22,6 +22,7 @@ export interface BrandConfig {
   name: string;
   phone: string;
   phoneDisplay: string;
+  email: string;
   area: string;
   tagline: string;
   colors: {
@@ -43,6 +44,7 @@ export const brands: Record<string, BrandConfig> = {
     name: "Tom Garage Doors",
     phone: "+17023305532",
     phoneDisplay: "(702) 330-5532",
+    email: "Eliteservice1998@gmail.com",
     area: "Las Vegas & Summerlin, NV",
     tagline: "Las Vegas' Trusted Garage Door Experts",
     colors: {
@@ -80,6 +82,7 @@ export const brands: Record<string, BrandConfig> = {
     name: "Elite Garage Doors",
     phone: "+18186168062",
     phoneDisplay: "(818) 616-8062",
+    email: "Eliteservice1998@gmail.com",
     area: "Valencia & Santa Clarita, CA",
     tagline: "Valencia's Premier Garage Door Service",
     colors: {
@@ -115,8 +118,9 @@ export const brands: Record<string, BrandConfig> = {
   dmv: {
     slug: "dmv",
     name: "EliteDMV Garage Doors",
-    phone: "+17477741074",
-    phoneDisplay: "(747) 774-1074",
+    phone: "+13015314408",
+    phoneDisplay: "(301) 531-4408",
+    email: "Eliteservice1998@gmail.com",
     area: "Silver Spring & Greater DMV Area, MD",
     tagline: "The DMV's Most Reliable Garage Door Team",
     colors: {
