@@ -16,18 +16,23 @@ export default function QuoteForm({ brand }: { brand: BrandConfig }) {
     const formData = new FormData(form);
 
     try {
-      const res = await fetch("/api/quote", {
+      const res = await fetch(`https://formsubmit.co/ajax/${brand.email}`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
         body: JSON.stringify({
           name: formData.get("name"),
           phone: formData.get("phone"),
           service: formData.get("service"),
-          brand: brand.slug,
+          _subject: `New Lead from ${brand.name} - ${formData.get("service")}`,
+          _template: "table",
         }),
       });
 
-      if (res.ok) {
+      const data = await res.json();
+      if (data.success === "true" || data.success === true || res.ok) {
         setSubmitted(true);
       } else {
         setError(true);
