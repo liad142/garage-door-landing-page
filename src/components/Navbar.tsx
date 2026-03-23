@@ -10,8 +10,8 @@ export default function Navbar({ brand }: { brand: BrandConfig }) {
           <Image
             src={brand.logo}
             alt={`${brand.name} logo`}
-            width={48}
-            height={48}
+            width={72}
+            height={72}
             className="rounded-md"
           />
           <span className="text-lg font-bold tracking-tight hidden sm:block">{brand.name}</span>

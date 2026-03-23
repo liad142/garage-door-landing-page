@@ -118,8 +118,8 @@ export const brands: Record<string, BrandConfig> = {
   dmv: {
     slug: "dmv",
     name: "EliteDMV Garage Doors",
-    phone: "+13015314408",
-    phoneDisplay: "(301) 531-4408",
+    phone: "+12022957249",
+    phoneDisplay: "(202) 295-7249",
     email: "Eliteservice1998@gmail.com",
     area: "Silver Spring & Greater DMV Area, MD",
     tagline: "The DMV's Most Reliable Garage Door Team",
@@ -128,7 +128,7 @@ export const brands: Record<string, BrandConfig> = {
       secondary: "#1B1B2F",
       accent: "#B0B0B0",
     },
-    logo: "/images/logo-dmv.svg",
+    logo: "/images/logo-dmv.png",
     heroImage: "/images/hero-dmv.png",
     about: "EliteDMV Garage Doors serves Silver Spring, Bethesda, and the greater DMV area with dependable, high-quality garage door services. We understand that your garage door is one of the most important features of your home — that's why we deliver prompt, professional service backed by years of experience and a commitment to customer satisfaction.",
     reviews: [
