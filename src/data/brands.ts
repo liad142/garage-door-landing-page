@@ -42,8 +42,8 @@ export const brands: Record<string, BrandConfig> = {
   tom: {
     slug: "tom",
     name: "Tom Garage Doors",
-    phone: "+17023305532",
-    phoneDisplay: "(702) 330-5532",
+    phone: "+17027154674",
+    phoneDisplay: "(702) 715-4674",
     email: "Eliteservice1998@gmail.com",
     area: "Las Vegas & Summerlin, NV",
     tagline: "Las Vegas' Trusted Garage Door Experts",
