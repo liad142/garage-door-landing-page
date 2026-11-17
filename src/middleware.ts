@@ -23,7 +23,7 @@ export function middleware(request: NextRequest) {
       return NextResponse.rewrite(new URL(`/${brand}`, request.url));
     }
     // If someone tries to access another brand's page on this domain, redirect to root
-    if (["/tom", "/elite", "/dmv"].includes(pathname) && pathname !== `/${brand}`) {
+    if (["/tom", "/elite", "/dmv", "/chimney"].includes(pathname) && pathname !== `/${brand}`) {
       return NextResponse.redirect(new URL("/", request.url));
     }
   }
@@ -32,5 +32,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/", "/tom", "/elite", "/dmv"],
+  matcher: ["/", "/tom", "/elite", "/dmv", "/chimney"],
 };
