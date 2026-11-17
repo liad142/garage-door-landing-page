@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { brands } from "@/data/brands";
+import { chimney } from "@/data/chimney";
 
 export default function Home() {
   return (
@@ -31,6 +32,19 @@ export default function Home() {
               </div>
             </Link>
           ))}
+          <Link
+            href={`/${chimney.slug}`}
+            className="block rounded-2xl overflow-hidden bg-gray-900 hover:bg-gray-800 transition-colors border border-gray-800 hover:border-gray-600"
+          >
+            <div className="h-2" style={{ backgroundColor: "#9b3b24" }} />
+            <div className="p-6">
+              <h2 className="text-xl font-bold text-white mb-1">{chimney.name}</h2>
+              <p className="text-gray-400 text-sm mb-3">{chimney.area}</p>
+              <p className="text-sm font-medium" style={{ color: "#ffb224" }}>
+                {chimney.phoneDisplay}
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
