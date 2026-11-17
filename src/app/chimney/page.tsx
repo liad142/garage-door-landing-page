@@ -7,6 +7,7 @@ import {
   DryerVent,
   DuctRun,
   FlueTile,
+  Grate,
   Mark,
   Skyline,
   StackCap,
@@ -68,11 +69,14 @@ export default function ChimneyPage() {
         Skip to content
       </a>
 
+      <main>
       <div className="dca-run">
         <div className="dca-flue" aria-hidden="true">
           <FlueSweep />
         </div>
-        <div className="dca-firebox" aria-hidden="true" />
+        <div className="dca-firebox" aria-hidden="true">
+          <Grate />
+        </div>
 
         <header className="dca-hero">
           <Skyline />
@@ -113,7 +117,7 @@ export default function ChimneyPage() {
           </div>
         </header>
 
-        <main id="main" className="dca-house">
+        <div id="main" className="dca-house">
           <Level name={repair.level} />
           <section className="dca-room dca-room-split" id={repair.id}>
             <div className="dca-room-copy">
@@ -156,7 +160,7 @@ export default function ChimneyPage() {
               </figcaption>
             </figure>
           </section>
-        </main>
+        </div>
       </div>
 
       <div className="dca-house dca-house-below">
@@ -198,6 +202,7 @@ export default function ChimneyPage() {
           ))}
         </div>
       </section>
+      </main>
 
       <footer className="dca-footer">
         <div className="dca-wordmark">

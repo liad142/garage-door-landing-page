@@ -211,12 +211,20 @@ body:has(.dca) {
   background: var(--dca-air);
   box-shadow: inset 2px 0 0 rgb(20 16 13 / 0.28), inset -2px 0 0 rgb(20 16 13 / 0.28);
 }
+.dca-soot-clip,
 .dca-soot,
 .dca-brush {
-  display: none;
   position: absolute;
 }
-.dca-flue[data-live] .dca-soot,
+.dca-soot-clip,
+.dca-brush {
+  display: none;
+}
+.dca-soot-clip {
+  inset: 0;
+  overflow: hidden;
+}
+.dca-flue[data-live] .dca-soot-clip,
 .dca-flue[data-live] .dca-brush {
   display: block;
 }
@@ -226,7 +234,7 @@ body:has(.dca) {
     radial-gradient(circle at 30% 20%, rgb(74 58 46 / 0.55) 0 1px, transparent 1.5px) 0 0 / 9px 13px,
     radial-gradient(circle at 70% 60%, rgb(74 58 46 / 0.4) 0 1px, transparent 1.5px) 0 0 / 11px 17px,
     #0c0a08;
-  will-change: clip-path;
+  will-change: transform;
 }
 .dca-brush {
   top: -8px;
@@ -447,8 +455,16 @@ body:has(.dca) {
   display: grid;
   gap: 8px;
 }
-.dca-room-sweep {
-  padding-bottom: calc(var(--dca-firebox-h) + 24px);
+.dca-grate {
+  position: absolute;
+  left: 8%;
+  bottom: 0;
+  width: 84%;
+  max-height: 70%;
+  display: block;
+}
+.dca-d-log {
+  fill: #4a372a;
 }
 .dca .dca-room-dryer .dca-drawing {
   margin-left: auto;

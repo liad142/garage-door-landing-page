@@ -40,6 +40,18 @@ export function StackCap() {
   );
 }
 
+/** The grate and logs in the firebox where the page-height flue ends. */
+export function Grate() {
+  return (
+    <svg {...svgProps} viewBox="0 0 60 44" className="dca-grate" preserveAspectRatio="xMidYMax meet">
+      <rect x="12" y="18" width="36" height="8" rx="4" className="dca-d-log" />
+      <rect x="16" y="9" width="30" height="8" rx="4" className="dca-d-log" />
+      <path d="M6 28h48M12 28v12M48 28v12M30 28v6" className="dca-d-line" />
+      <path d="M0 43h60" className="dca-d-line" />
+    </svg>
+  );
+}
+
 /** A row of neighbouring rooftops behind the hero. */
 export function Skyline() {
   return (

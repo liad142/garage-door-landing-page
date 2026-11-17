@@ -13,7 +13,7 @@ export default function FlueSweep() {
   useEffect(() => {
     const s = soot.current;
     const b = brush.current;
-    const flue = s?.parentElement;
+    const flue = b?.parentElement;
     if (!s || !b || !flue) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
@@ -25,7 +25,7 @@ export default function FlueSweep() {
       const rect = flue.getBoundingClientRect();
       const edge = window.innerHeight * 0.55 - rect.top;
       const y = Math.min(Math.max(edge, 0), rect.height);
-      s.style.clipPath = `inset(${y}px 0 0 0)`;
+      s.style.transform = `translate3d(0, ${y}px, 0)`;
       b.style.transform = `translate3d(0, ${y}px, 0)`;
     };
     const schedule = () => {
@@ -45,7 +45,9 @@ export default function FlueSweep() {
 
   return (
     <>
-      <div ref={soot} className="dca-soot" aria-hidden="true" />
+      <div className="dca-soot-clip" aria-hidden="true">
+        <div ref={soot} className="dca-soot" />
+      </div>
       <div ref={brush} className="dca-brush" aria-hidden="true" />
     </>
   );
